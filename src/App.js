@@ -26,9 +26,9 @@ function App() {
               </h2>
               <p className="hero-description">
                 Especialista em cuidados e design de unhas, a Flávia Nails
-                oferece um atendimento personalizado para quem busca unhas
-                bem cuidadas, bonitas e com acabamento profissional em
-                Montes Claros, MG.
+                oferece um atendimento personalizado para quem busca unhas bem
+                cuidadas, bonitas e com acabamento profissional em Montes
+                Claros, MG.
               </p>
             </div>
             <div className="hero-image">
@@ -51,33 +51,39 @@ function App() {
         </section>
 
         {/* CARDS DE INFORMAÇÕES */}
-        <section className="info-cards" aria-label="Diferenciais da Flávia Nails">
+        <section
+          className="info-cards"
+          aria-label="Diferenciais da Flávia Nails"
+        >
           {/* CARD 01 */}
-          <a href="https://www.instagram.com/stories/highlights/17952017309211638/" target="_blank">
-          <article className="info-card" id="card01">
-            <video
-              className="info-video"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="none"
-              aria-hidden="true"
-            >
-              <source src="/videos/feedback.mp4" type="video/mp4" />
-            </video>
-            
-            <div className="card-content">
-              <span className="info-icon" role="img" aria-label="Estrela">
-                ⭐
-              </span>
-              <h3>Avaliação</h3>
-              <p className="highlight">5,0 estrelas</p>
-              <p className="subtitle">40 avaliações no Google</p>
-            </div>
-           
-          </article>
-           </a>
+          <a
+            href="https://www.instagram.com/stories/highlights/17952017309211638/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <article className="info-card" id="card01">
+              <video
+                className="info-video"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="none"
+                aria-hidden="true"
+              >
+                <source src="/videos/feedback.mp4" type="video/mp4" />
+              </video>
+
+              <div className="card-content">
+                <span className="info-icon" role="img" aria-label="Estrela">
+                  ⭐
+                </span>
+                <h3>Avaliação</h3>
+                <p className="highlight">5,0 estrelas</p>
+                <p className="subtitle">40 avaliações no Google</p>
+              </div>
+            </article>
+          </a>
 
           {/* CARD 02 */}
           <a
@@ -135,29 +141,29 @@ function App() {
           </article>
 
           {/* CARD 04 */}
-          <a href={googleMapsLink} target="_blank">
-          <article className="info-card" id="card04">
-            <video
-              className="info-video"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="none"
-              aria-hidden="true"
-            >
-              <source src="/videos/loc.mp4" type="video/mp4" />
-            </video>
+          <a href={googleMapsLink} target="_blank" rel="noopener noreferrer">
+            <article className="info-card" id="card04">
+              <video
+                className="info-video"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="none"
+                aria-hidden="true"
+              >
+                <source src="/videos/loc.mp4" type="video/mp4" />
+              </video>
 
-            <div className="card-content">
-              <span className="info-icon" role="img" aria-label="Localização">
-                📍
-              </span>
-              <h3>Localização</h3>
-              <p className="highlight">Centro de Montes Claros</p>
-              <p className="subtitle">Av. Afonso Pena, 248</p>
-            </div>
-          </article>
+              <div className="card-content">
+                <span className="info-icon" role="img" aria-label="Localização">
+                  📍
+                </span>
+                <h3>Localização</h3>
+                <p className="highlight">Centro de Montes Claros</p>
+                <p className="subtitle">Av. Afonso Pena, 248</p>
+              </div>
+            </article>
           </a>
         </section>
 
@@ -172,8 +178,7 @@ function App() {
               <address className="location-text">
                 <p className="location-address">
                   <strong>
-                    Flávia Nails, Av. Afonso Pena, 248 — Segundo andar, n°
-                    202
+                    Flávia Nails, Av. Afonso Pena, 248 — Segundo andar, n° 202
                   </strong>
                 </p>
                 <p className="location-details">Centro, Montes Claros - MG</p>
